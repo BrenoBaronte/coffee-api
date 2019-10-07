@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop.Business", "Coff
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop.Repositories", "CoffeeShop.Repositories\CoffeeShop.Repositories.csproj", "{DACE0AB8-969C-46AF-8D30-AC50A4D411F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop.Tests", "CoffeeShop.Tests\CoffeeShop.Tests.csproj", "{2A64C72D-D626-4E48-942D-67E710DA78A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DACE0AB8-969C-46AF-8D30-AC50A4D411F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DACE0AB8-969C-46AF-8D30-AC50A4D411F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DACE0AB8-969C-46AF-8D30-AC50A4D411F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A64C72D-D626-4E48-942D-67E710DA78A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A64C72D-D626-4E48-942D-67E710DA78A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A64C72D-D626-4E48-942D-67E710DA78A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A64C72D-D626-4E48-942D-67E710DA78A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
