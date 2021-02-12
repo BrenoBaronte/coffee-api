@@ -25,7 +25,7 @@ namespace CoffeeShop.Repositories
 
         public async Task<bool> CreateCoffee(Coffee coffee)
         {
-            using (var connnection = new SqlConnection("Server=tcp:barontecoffeeshop.database.windows.net,1433;Initial Catalog=CoffeeShopDb;Persist Security Info=False;User ID=bcsAdmin;Password=Bcf1234!@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"))
+            using (var connnection = new SqlConnection("_CS_"))
             {
                 connnection.Open();
 
@@ -37,7 +37,7 @@ namespace CoffeeShop.Repositories
 
         public async Task<bool> DeleteCoffee(Guid coffeeId)
         {
-            using (var connnection = new SqlConnection("Server=tcp:barontecoffeeshop.database.windows.net,1433;Initial Catalog=CoffeeShopDb;Persist Security Info=False;User ID=bcsAdmin;Password=Bcf1234!@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"))
+            using (var connnection = new SqlConnection("_CS_"))
             {
                 connnection.Open();
 
@@ -49,7 +49,7 @@ namespace CoffeeShop.Repositories
 
         public async Task<Coffee> GetCoffeeById(Guid coffeeId)
         {
-            using (var connnection = new SqlConnection("Server=tcp:barontecoffeeshop.database.windows.net,1433;Initial Catalog=CoffeeShopDb;Persist Security Info=False;User ID=bcsAdmin;Password=Bcf1234!@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"))
+            using (var connnection = new SqlConnection("_CS_"))
             {
                 connnection.Open();
 
@@ -63,7 +63,7 @@ namespace CoffeeShop.Repositories
 
         public async Task<IEnumerable<Coffee>> GetCoffees()
         {
-            using (var connnection = new SqlConnection("Server=tcp:barontecoffeeshop.database.windows.net,1433;Initial Catalog=CoffeeShopDb;Persist Security Info=False;User ID=bcsAdmin;Password=Bcf1234!@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"))
+            using (var connnection = new SqlConnection("_CS_"))
             {
                 connnection.Open();
 
@@ -76,7 +76,7 @@ namespace CoffeeShop.Repositories
 
         public async Task<bool> UpdateCoffee(Coffee coffee)
         {
-            using (var connnection = new SqlConnection("Server=tcp:barontecoffeeshop.database.windows.net,1433;Initial Catalog=CoffeeShopDb;Persist Security Info=False;User ID=bcsAdmin;Password=Bcf1234!@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"))
+            using (var connnection = new SqlConnection("_CS_"))
             {
                 connnection.Open();
 
